@@ -6,8 +6,10 @@ let passportWithAddress = {
         city: "LA"
     }
 };
+
 let deep = structuredClone(passportWithAddress);
 
 deep.address.city = "Bobryisk";
-console.log(passportWithAddress.address.city);
+
 console.log(deep.address.city);
+console.log(passportWithAddress.address.city);
