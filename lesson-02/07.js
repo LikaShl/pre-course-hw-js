@@ -9,9 +9,7 @@ let passportMarried = {
 
 let passportMarried2 = structuredClone(passportMarried);
 
-
 passportMarried2.married = true
 
- 
 console.log(passportMarried); 
 console.log(passportMarried2);
