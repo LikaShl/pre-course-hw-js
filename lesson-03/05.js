@@ -24,6 +24,6 @@ const newObj = {
     surName: 'Susanin',
     address: 'Unknown'
 }
-let users3 = users2.concat(newObj)
-console.log(users3)
+let usersNew = users2.concat(newObj)
+console.log(usersNew)
     
