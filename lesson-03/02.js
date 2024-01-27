@@ -1,5 +1,2 @@
-const numbers = [[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]] 
-function numToStr(){
-    return numbers.toString
-}
-console.log(numToStr())
+const words = ["яблоко", "банан", "апельсин", "манго", "киви"];
+indexOf()
