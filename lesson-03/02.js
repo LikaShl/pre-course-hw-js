@@ -1,2 +1,3 @@
 const words = ["яблоко", "банан", "апельсин", "манго", "киви"];
-let orange = words.indexOf("апельсин") ? console.log ("Ура! нашел") : console.log("Придется поискать в другом магазине…")
+const orangeIndex = words.indexOf("апельсин");
+orangeIndex !== -1 ? console.log("Ура! нашел") : console.log("Придется поискать в другом магазине…");
